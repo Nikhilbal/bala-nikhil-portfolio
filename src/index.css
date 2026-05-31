@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
