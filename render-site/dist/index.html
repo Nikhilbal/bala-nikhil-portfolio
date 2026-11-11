@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f4ec">
+  <meta name="description" content="Explore Bala Nikhil's software and cybersecurity projects through original outputs and interactive 3D walkthroughs.">
+  <title>Bala Nikhil · Software &amp; Cloud Security</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%231b2027'/%3E%3Cpath d='M13 13h8c6 0 8 3 8 6s-2 5-4 5c4 0 6 2 6 5 0 4-3 6-9 6h-9zm5 4v5h3c2 0 3-1 3-3s-1-2-3-2zm0 9v5h4c3 0 4-1 4-3s-1-2-4-2z' fill='%23def888'/%3E%3Ccircle cx='36' cy='32' r='2.5' fill='%23def888'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="portfolio.js"></script>
+  <script type="module" src="profile.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="#top"><span class="monogram" aria-hidden="true">B<span>.</span></span><span>Bala Nikhil<small>ENGINEERING PORTFOLIO</small></span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="github-link" href="https://github.com/Nikhilbal" target="_blank" rel="noopener noreferrer">GitHub <span class="icon icon-out" aria-hidden="true"></span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="shell hero" id="top" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> SOFTWARE ENGINEERING <span aria-hidden="true">/</span> CLOUD SECURITY</p>
+        <h1 id="intro-title">I build software.<br><span>I test its security.</span></h1>
+        <p>I’m Bala Nikhil, an Electronics and Communication Engineering graduate. I build across hardware, applications, and APIs, then test what happens when a connection fails or access changes.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span class="icon icon-down" aria-hidden="true"></span></a>
+          <a class="button button-text" href="#about">About me <span class="icon icon-out" aria-hidden="true"></span></a>
+        </div>
+      </div>
+
+      <figure class="hero-display" aria-labelledby="featured-title">
+        <div class="viewport hero-viewport" id="hero-viewport">
+          <canvas id="hero-canvas" tabindex="0" aria-label="3D model of a shopping cart, scan station, and billing kiosk. Drag or use arrow keys to rotate."></canvas>
+          <div class="scene-labels" aria-hidden="true"></div>
+          <div class="viewport-top">
+            <div><p class="eyebrow">01 / FEATURED PROJECT</p><h2 id="featured-title">Auto Smart Cart Billing</h2></div>
+            <span class="scene-badge"><i aria-hidden="true"></i> INTERACTIVE 3D</span>
+          </div>
+          <span class="orbit-hint" aria-hidden="true"><span class="icon icon-reset"></span> DRAG TO ROTATE</span>
+        </div>
+        <figcaption class="hero-display-footer">
+          <button class="icon-control dark-control" id="hero-play" type="button" aria-label="Play Smart Cart preview"><span class="icon play-icon" aria-hidden="true"></span></button>
+          <span class="hero-stage-text"><small>WORKFLOW PREVIEW</small><strong id="hero-beat">Scan an item</strong></span>
+          <a href="#project-smart-cart" data-open-project="smart-cart">View project <span class="icon icon-out" aria-hidden="true"></span></a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="shell profile-strip" aria-label="Areas of work">
+      <span><strong>06</strong> Projects</span>
+      <span><strong>01</strong> Internship</span>
+      <span><i></i> Cloud security</span>
+      <span><i></i> Full-stack development</span>
+      <span><i></i> IoT &amp; data analytics</span>
+    </div>
+
+    <section class="shell skills-section" id="skills" aria-labelledby="skills-title">
+      <header class="section-heading">
+        <div><p class="eyebrow section-marker">01 / TECHNICAL SKILLS</p><h2 id="skills-title">Skills, connected to real work.</h2></div>
+        <p>Explore six areas of my toolkit. Each connects what I know to something I’ve built or practised.</p>
+      </header>
+      <div class="skills-layout" data-profile-stage="skills">
+        <figure class="profile-stage skills-figure">
+          <div class="viewport profile-viewport skills-viewport" id="skills-viewport">
+            <canvas id="skills-canvas" tabindex="0" aria-label="Interactive 3D skills workbench with a security shield, network, code screen, phone, analytics and delivery modules. Drag or use arrow keys to rotate."></canvas>
+            <div class="scene-labels" aria-hidden="true"></div>
+            <div class="viewport-top"><div><p class="eyebrow">THE ENGINEERING WORKBENCH</p><h3>One toolkit. Connected systems.</h3></div><span class="scene-badge"><i aria-hidden="true"></i> 3D</span></div>
+            <span class="orbit-hint work-orbit-hint" aria-hidden="true">DRAG TO ROTATE</span>
+            <button type="button" class="camera-button" data-profile-reset><span class="icon icon-reset" aria-hidden="true"></span> Reset view</button>
+          </div>
+          <figcaption class="profile-stage-footer">
+            <button type="button" class="icon-control light-control" data-profile-play aria-label="Play skills animation"><span class="icon play-icon" aria-hidden="true"></span></button>
+            <div><small>EXPLORE MY TOOLKIT</small><p data-profile-caption>Model access. Check permissions.</p></div>
+          </figcaption>
+        </figure>
+        <div class="skills-content">
+          <div class="skill-switcher" role="tablist" aria-label="Choose a skill area">
+            <button type="button" id="skill-tab-0" role="tab" aria-selected="true" aria-controls="skill-panel-0" data-profile-step data-caption="Model access. Check permissions."><span>01</span> Cloud &amp; IAM</button>
+            <button type="button" id="skill-tab-1" role="tab" aria-selected="false" aria-controls="skill-panel-1" tabindex="-1" data-profile-step data-caption="Trace traffic. Investigate the evidence."><span>02</span> Security &amp; networks</button>
+            <button type="button" id="skill-tab-2" role="tab" aria-selected="false" aria-controls="skill-panel-2" tabindex="-1" data-profile-step data-caption="Build APIs. Connect the application."><span>03</span> Backend &amp; web</button>
+            <button type="button" id="skill-tab-3" role="tab" aria-selected="false" aria-controls="skill-panel-3" tabindex="-1" data-profile-step data-caption="Connect devices to useful experiences."><span>04</span> Mobile &amp; IoT</button>
+            <button type="button" id="skill-tab-4" role="tab" aria-selected="false" aria-controls="skill-panel-4" tabindex="-1" data-profile-step data-caption="Organise data. Make patterns visible."><span>05</span> Data &amp; analytics</button>
+            <button type="button" id="skill-tab-5" role="tab" aria-selected="false" aria-controls="skill-panel-5" tabindex="-1" data-profile-step data-caption="Package, test and document the work."><span>06</span> Delivery &amp; tools</button>
+          </div>
+          <article class="skill-detail" id="skill-panel-0" role="tabpanel" aria-labelledby="skill-tab-0" data-profile-panel>
+            <p class="eyebrow skill-context">PERSONAL PROJECTS + CLOUD LABS</p>
+            <h3>Understand who can reach what.</h3>
+            <p>I model identities, policies and access paths to examine how permission changes affect a system.</p>
+            <ul><li>Review AWS-style IAM conditions, role relationships and before-and-after access.</li><li>Practise least privilege, identity life cycles, RBAC/ABAC and MFA.</li><li>Review S3 public-access risks, encryption, bucket policies and audit controls.</li></ul>
+            <div class="skill-tags" aria-label="Cloud and identity skills"><span>AWS IAM / S3 fundamentals</span><span>Policy modelling</span><span>RBAC / ABAC</span><span>Least privilege</span><span>MFA</span></div>
+            <a class="skill-proof" href="#project-revocascope" data-open-project="revocascope"><span>SEE THE WORK<strong>REVOCASCOPE · synthetic IAM investigations</strong></span><span class="icon icon-out" aria-hidden="true"></span></a>
+          </article>
+          <article class="skill-detail" id="skill-panel-1" role="tabpanel" aria-labelledby="skill-tab-1" data-profile-panel hidden>
+            <p class="eyebrow skill-context">AUTHORISED LAB PRACTICE</p>
+            <h3>Follow the traffic. Check the evidence.</h3>
+            <p>I use networking and operating-system fundamentals to investigate activity and document what the evidence supports.</p>
+            <ul><li>Inspect Wireshark captures, DNS, TCP handshakes, HTTP, ports and controlled Nmap scans.</li><li>Practise Linux users, groups, permissions, SSH and system/service log inspection.</li><li>Check phishing headers, SPF/DKIM/DMARC, SHA-256 integrity, incident notes and risk controls.</li></ul>
+            <div class="skill-tags" aria-label="Security and networking skills"><span>Wireshark</span><span>Nmap</span><span>TCP/IP · DNS · DHCP</span><span>TLS basics · SSH</span><span>Ubuntu / Kali / macOS</span><span>Phishing analysis</span><span>SHA-256</span></div>
+            <a class="skill-proof" href="#project-revocascope" data-open-project="revocascope"><span>SEE THE WORK<strong>REVOCASCOPE · evidence integrity &amp; reporting</strong></span><span class="icon icon-out" aria-hidden="true"></span></a>
+          </article>
+          <article class="skill-detail" id="skill-panel-2" role="tabpanel" aria-labelledby="skill-tab-2" data-profile-panel hidden>
+            <p class="eyebrow skill-context">PROJECTS + SOFTWARE INTERNSHIP</p>
+            <h3>Build the flow behind the interface.</h3>
+            <p>I connect web interfaces, APIs and databases, with attention to authentication and permission-sensitive actions.</p>
+            <ul><li>Build REST endpoints, request validation and database-backed application flows.</li><li>Implement authentication, administrative role checks and approval workflows.</li><li>Use Python/FastAPI and JavaScript/TypeScript with Node.js, Express and React.</li></ul>
+            <div class="skill-tags" aria-label="Backend and web skills"><span>Python</span><span>FastAPI</span><span>JavaScript / TypeScript</span><span>Node.js / Express</span><span>React</span><span>REST APIs</span><span>SQLite / PostgreSQL</span></div>
+            <a class="skill-proof" href="#project-bluestock" data-open-project="bluestock"><span>SEE THE WORK<strong>Bluestock · APIs, authentication &amp; approvals</strong></span><span class="icon icon-out" aria-hidden="true"></span></a>
+          </article>
+          <article class="skill-detail" id="skill-panel-3" role="tabpanel" aria-labelledby="skill-tab-3" data-profile-panel hidden>
+            <p class="eyebrow skill-context">IN-DEVELOPMENT APPS + IOT PROTOTYPE</p>
+            <h3>Connect the physical and digital.</h3>
+            <p>My ECE background helps me think across device communication, application state and the person using the product.</p>
+            <ul><li>Develop React Native/Expo mobile journeys with supporting backend APIs.</li><li>Build ride creation, booking and location-aware trip-discovery flows in PoolGo.</li><li>Connect Raspberry Pi cart inputs to a web billing flow and examine TCP/UDP communication.</li></ul>
+            <div class="skill-tags" aria-label="Mobile and IoT skills"><span>React Native</span><span>Expo</span><span>Raspberry Pi</span><span>Google Maps integration</span><span>TCP / UDP</span><span>Device / app synchronisation</span></div>
+            <div class="skill-proof-pair"><a href="#project-poolgo" data-open-project="poolgo">PoolGo <span class="icon icon-out" aria-hidden="true"></span></a><a href="#project-smart-cart" data-open-project="smart-cart">Smart Cart <span class="icon icon-out" aria-hidden="true"></span></a></div>
+          </article>
+          <article class="skill-detail" id="skill-panel-4" role="tabpanel" aria-labelledby="skill-tab-4" data-profile-panel hidden>
+            <p class="eyebrow skill-context">CUSTOMER ANALYTICS PROJECT</p>
+            <h3>Turn customer data into a clearer view.</h3>
+            <p>I organise data and build interactive dashboards that help people explore patterns and compare customer groups.</p>
+            <ul><li>Prepare and clean data with Python, Pandas and NumPy.</li><li>Apply K-Means clustering to explore behavioural customer segments.</li><li>Build Streamlit views for visual comparison and analytical exploration.</li></ul>
+            <div class="skill-tags" aria-label="Data and analytics skills"><span>Python</span><span>Pandas</span><span>NumPy</span><span>K-Means</span><span>Streamlit</span><span>Data preprocessing</span><span>Segmentation</span></div>
+            <a class="skill-proof" href="#project-customer-360" data-open-project="customer-360"><span>SEE THE WORK<strong>Customer 360 · customer segmentation dashboard</strong></span><span class="icon icon-out" aria-hidden="true"></span></a>
+          </article>
+          <article class="skill-detail" id="skill-panel-5" role="tabpanel" aria-labelledby="skill-tab-5" data-profile-panel hidden>
+            <p class="eyebrow skill-context">PERSONAL PROJECT DELIVERY</p>
+            <h3>Make the work reproducible.</h3>
+            <p>I package services, check application behaviour and keep source, setup instructions and evidence together.</p>
+            <ul><li>Use Docker and Docker Compose for local application environments.</li><li>Manage changes with Git and GitHub, and run automated checks with GitHub Actions.</li><li>Inspect API requests with Postman and document setup, tests and project limits.</li></ul>
+            <div class="skill-tags" aria-label="Delivery and development tools"><span>Docker</span><span>Docker Compose</span><span>Git / GitHub</span><span>GitHub Actions</span><span>Postman</span><span>Automated checks</span><span>Technical documentation</span></div>
+            <a class="skill-proof" href="#project-synthshield" data-open-project="synthshield"><span>SEE THE WORK<strong>SynthShield · local services &amp; security experiments</strong></span><span class="icon icon-out" aria-hidden="true"></span></a>
+          </article>
+        </div>
+      </div>
+      <p class="skills-grounding"><span class="signal" aria-hidden="true"></span> Grounded in personal projects, authorised labs and a software internship. Current direction: SOC, IAM and cloud security.</p>
+    </section>
+
+    <section class="shell work-section" id="projects" aria-labelledby="work-title">
+      <header class="section-heading">
+        <div><p class="eyebrow section-marker">02 / PROJECT INDEX</p><h2 id="work-title">Projects and their outputs</h2></div>
+        <p>Read each project’s case study, inspect its original output, and replay its workflow in 3D.</p>
+      </header>
+
+      <div class="explorer">
+        <nav class="project-index" aria-label="Choose a project">
+          <p class="index-kicker eyebrow">PROJECTS <span>06</span></p>
+          <a href="#project-smart-cart" data-open-project="smart-cart" aria-current="true"><span class="index-number">01</span><span><strong>Smart Cart</strong><small>IoT &amp; web</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <a href="#project-revocascope" data-open-project="revocascope"><span class="index-number">02</span><span><strong>REVOCASCOPE</strong><small>Cloud security</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <a href="#project-synthshield" data-open-project="synthshield"><span class="index-number">03</span><span><strong>SynthShield</strong><small>AI agent security</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <a href="#project-poolgo" data-open-project="poolgo"><span class="index-number">04</span><span><strong>PoolGo</strong><small>Full-stack mobile</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <a href="#project-customer-360" data-open-project="customer-360"><span class="index-number">05</span><span><strong>Customer 360</strong><small>Data analytics</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <a href="#project-talkconnect" data-open-project="talkconnect"><span class="index-number">06</span><span><strong>TalkConnect</strong><small>Mobile prototype</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+          <p class="index-kicker internship-kicker eyebrow">EXPERIENCE <span>01</span></p>
+          <a href="#project-bluestock" data-open-project="bluestock"><span class="index-number">07</span><span><strong>Bluestock</strong><small>Fintech internship</small></span><span class="index-arrow icon icon-out" aria-hidden="true"></span></a>
+        </nav>
+
+        <article class="project-panel" id="project-panel" aria-labelledby="project-title">
+          <div class="project-header">
+            <div class="project-identity">
+              <p id="project-category" class="eyebrow">01 / IOT &amp; WEB</p>
+              <span id="project-status" class="status-tag">Checkout prototype</span>
+            </div>
+            <h3 id="project-title" tabindex="-1">Auto Smart Cart Billing</h3>
+            <p id="project-summary">A self-checkout prototype that brings barcode scans, a running bill, and cart weight checks into one shopping flow.</p>
+            <button class="case-jump" id="read-case-study" type="button">Read detailed case study <span class="icon icon-down" aria-hidden="true"></span></button>
+          </div>
+          <div class="view-tabs" role="tablist" aria-label="Project views">
+            <button type="button" role="tab" id="tab-output" aria-controls="project-output" aria-selected="true" data-mode="output"><span aria-hidden="true">▤</span> Original output</button>
+            <button type="button" role="tab" id="tab-motion" aria-controls="project-motion" aria-selected="false" tabindex="-1" data-mode="motion"><span aria-hidden="true">◇</span> 3D walkthrough</button>
+          </div>
+          <section id="project-output" class="output-view" role="tabpanel" aria-labelledby="tab-output">
+            <div id="output-content"></div>
+          </section>
+          <section id="project-motion" class="motion-view" role="tabpanel" aria-labelledby="tab-motion" hidden>
+            <div class="motion-deck">
+              <div class="viewport work-viewport" id="work-viewport">
+                <canvas id="work-canvas" tabindex="0" aria-label="3D project walkthrough. Drag or use arrow keys to rotate."></canvas>
+                <div class="scene-labels" aria-hidden="true"></div>
+                <div class="viewport-top">
+                  <p class="eyebrow">ILLUSTRATED WORKFLOW</p>
+                  <span class="scene-badge"><i aria-hidden="true"></i> INTERACTIVE 3D</span>
+                </div>
+                <span class="orbit-hint work-orbit-hint" aria-hidden="true">DRAG TO ROTATE</span>
+                <button type="button" id="reset-camera" class="camera-button"><span class="icon icon-reset" aria-hidden="true"></span> <span>Reset view</span></button>
+              </div>
+              <div class="playback">
+                <button type="button" id="work-play" class="icon-control light-control" aria-label="Play walkthrough"><span class="icon play-icon" aria-hidden="true"></span></button>
+                <input id="timeline" type="range" min="0" max="1000" value="0" aria-label="Walkthrough timeline">
+                <span id="time-display" class="time-display">0:00</span>
+              </div>
+            </div>
+            <div class="chapter-list" id="chapter-list" aria-label="Walkthrough chapters"></div>
+            <p id="chapter-description" class="chapter-description" aria-live="polite"></p>
+          </section>
+          <section class="project-case-study" id="case-study" aria-labelledby="case-study-title">
+            <header class="case-study-heading">
+              <p class="eyebrow">PROJECT DETAILS</p>
+              <h4 id="case-study-title" tabindex="-1">Auto Smart Cart Billing case study</h4>
+            </header>
+            <div class="case-details" id="case-details"></div>
+          </section>
+        </article>
+      </div>
+      <noscript><p class="noscript">Enable JavaScript to explore the case studies, project outputs, and interactive walkthroughs.</p></noscript>
+    </section>
+
+    <section class="shell experience-section" id="experience" aria-labelledby="experience-title">
+      <header class="section-heading"><div><p class="eyebrow section-marker">03 / EXPERIENCE</p><h2 id="experience-title">Engineering experience</h2></div></header>
+      <article class="experience-card">
+        <div class="experience-company"><span aria-hidden="true">B<span>.</span></span><div><p class="eyebrow">BLUESTOCK.IN</p><p>May–July 2025</p></div></div>
+        <div><h3>Software Development Engineer Intern</h3><p>I contributed to IPO dashboard APIs, authentication, and account verification. I implemented role checks for administrative approvals.</p></div>
+        <a class="button button-paper" href="#project-bluestock" data-open-project="bluestock">See internship project <span class="icon icon-out" aria-hidden="true"></span></a>
+      </article>
+    </section>
+
+    <section class="shell education-section" id="education" aria-labelledby="education-title">
+      <header class="section-heading"><div><p class="eyebrow section-marker">04 / EDUCATION &amp; LEARNING</p><h2 id="education-title">An engineering foundation.<br>A security direction.</h2></div><p>From electronics and communication to building applications and investigating access.</p></header>
+      <div class="education-layout">
+        <div class="education-records">
+          <article class="degree-card">
+            <div class="degree-topline"><p class="eyebrow">BACHELOR’S DEGREE</p><span>2022–2026</span></div>
+            <h3>B.Tech in Electronics and Communication Engineering</h3>
+            <p class="education-school">Guru Nanak Institute of Technology</p><p class="education-location">Hyderabad, India</p>
+            <div class="degree-grade"><strong>7.89<span>/ 10</span></strong><span>CGPA</span></div>
+            <p class="education-connection">An engineering foundation that I apply to connected devices, network communication and software projects such as Smart Cart.</p>
+          </article>
+          <article class="earlier-study"><span class="education-record-dot" aria-hidden="true"></span><div><p class="eyebrow">2020–2022 · INTERMEDIATE</p><h3>Mathematics, Physics &amp; Chemistry</h3><p>NANO Junior College · Hyderabad</p></div></article>
+          <article class="learning-card"><p class="eyebrow"><span class="signal" aria-hidden="true"></span> CURRENT LEARNING</p><h3>ISC2 Certified in Cybersecurity (CC)</h3><span class="learning-status">Exam preparation</span><p>Preparing for the examination while practising SOC fundamentals, AWS IAM, Linux administration, networking and incident investigation.</p></article>
+        </div>
+        <div class="education-journey" data-profile-stage="education">
+          <figure class="profile-stage">
+            <div class="viewport profile-viewport education-viewport" id="education-viewport">
+              <canvas id="education-canvas" tabindex="0" aria-label="Interactive 3D engineering journey: electronics chip, internship code screen, graduation cap and cloud-security shield. Drag or use arrow keys to rotate."></canvas><div class="scene-labels" aria-hidden="true"></div>
+              <div class="viewport-top"><div><p class="eyebrow">MY LEARNING JOURNEY</p><h3>Hardware → software → security</h3></div><span class="scene-badge"><i aria-hidden="true"></i> 3D</span></div>
+              <span class="orbit-hint work-orbit-hint" aria-hidden="true">DRAG TO ROTATE</span><button type="button" class="camera-button" data-profile-reset><span class="icon icon-reset" aria-hidden="true"></span> Reset view</button>
+            </div>
+            <figcaption class="profile-stage-footer"><button type="button" class="icon-control light-control" data-profile-play aria-label="Play education animation"><span class="icon play-icon" aria-hidden="true"></span></button><div><small>FOLLOW THE JOURNEY</small><p data-profile-caption>2022 · Begin Electronics and Communication Engineering.</p></div></figcaption>
+          </figure>
+          <div class="journey-steps" role="tablist" aria-label="Choose a learning milestone">
+            <button type="button" id="education-tab-0" role="tab" aria-selected="true" aria-controls="education-panel-0" data-profile-step data-caption="2022 · Begin Electronics and Communication Engineering."><small>2022</small><span>ECE foundation</span></button>
+            <button type="button" id="education-tab-1" role="tab" aria-selected="false" aria-controls="education-panel-1" tabindex="-1" data-profile-step data-caption="2025 · Apply software skills during the Bluestock internship."><small>2025</small><span>Internship</span></button>
+            <button type="button" id="education-tab-2" role="tab" aria-selected="false" aria-controls="education-panel-2" tabindex="-1" data-profile-step data-caption="2026 · B.Tech in Electronics and Communication Engineering."><small>2026</small><span>B.Tech</span></button>
+            <button type="button" id="education-tab-3" role="tab" aria-selected="false" aria-controls="education-panel-3" tabindex="-1" data-profile-step data-caption="Now · Build deeper skills in SOC, IAM and cloud security."><small>NOW</small><span>Cloud security</span></button>
+          </div>
+          <div class="journey-note" id="education-panel-0" role="tabpanel" aria-labelledby="education-tab-0" data-profile-panel><h3>Start with the system.</h3><p>Electronics and communication is the foundation behind my interest in devices, networks and the software that connects them.</p></div>
+          <div class="journey-note" id="education-panel-1" role="tabpanel" aria-labelledby="education-tab-1" data-profile-panel hidden><h3>Apply it in a working team.</h3><p>My May–July 2025 Bluestock internship gave me experience contributing to APIs, authentication and role-based approval flows.</p></div>
+          <div class="journey-note" id="education-panel-2" role="tabpanel" aria-labelledby="education-tab-2" data-profile-panel hidden><h3>Connect engineering to practical projects.</h3><p>My B.Tech journey connects to work across IoT billing, mobile apps, data dashboards and security research prototypes.</p></div>
+          <div class="journey-note" id="education-panel-3" role="tabpanel" aria-labelledby="education-tab-3" data-profile-panel hidden><h3>Keep building toward cloud security.</h3><p>I am preparing for ISC2 CC and developing hands-on skills in network investigation, Linux permissions and IAM policy analysis.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div><p class="eyebrow section-marker">05 / ABOUT ME</p><h2 id="about-title">Building toward<br>cloud security.</h2></div>
+        <div class="about-copy">
+          <p>I studied Electronics and Communication Engineering at Guru Nanak Institute of Technology. Troubleshooting network and port errors on Smart Cart made me want to understand security at each boundary.</p>
+          <p>My hands-on work includes tracing packets in Wireshark, testing Linux permissions, reviewing IAM and S3 policies, and checking phishing headers.</p>
+          <div class="about-links"><a class="button button-primary" href="mailto:balanikhil200430@gmail.com">Email me <span class="icon icon-out" aria-hidden="true"></span></a><a class="button button-paper" href="https://www.linkedin.com/in/bala-nikhil-91225b287/" target="_blank" rel="noopener noreferrer">LinkedIn <span class="icon icon-out" aria-hidden="true"></span></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>Bala Nikhil</span><span>Software engineering · Cloud security</span><a href="#top">Back to top <span class="icon icon-up" aria-hidden="true"></span></a></div></footer>
+
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-title">
+    <div class="image-dialog-head"><h2 id="image-title">Project output</h2><div class="image-actions"><a id="download-output" download>Download image</a><button id="close-image" type="button" aria-label="Close output image">×</button></div></div>
+    <img id="full-output-image" alt="">
+    <p id="image-note"></p>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    runtime: static
+    name: bala-nikhil-3d-portfolio
+    repo: https://github.com/Nikhilbal/bala-nikhil-portfolio
+    branch: render-3d-portfolio
+    rootDir: render-site
+    buildCommand: "true"
+    staticPublishPath: dist
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
+    autoDeployTrigger: commit
